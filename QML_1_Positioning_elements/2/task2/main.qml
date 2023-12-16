@@ -16,6 +16,7 @@ Window {
            width: parent.width
            height: parent.height/10
            color:"gray"
+
            Text{
                text: "Header"
                font.pixelSize: 16
@@ -26,6 +27,7 @@ Window {
                anchors.centerIn: parent
            }
         }
+
         Rectangle{
             id: content
             width: parent.width
@@ -37,6 +39,7 @@ Window {
             border.width: 1
             border.color: "black"
             anchors.margins: 5
+
             Text{
                 text: "Content"
                 font.pixelSize: 16
@@ -47,11 +50,13 @@ Window {
                 anchors.centerIn: parent
             }
         }
+
         Rectangle{
            id: footer
            anchors.bottom: parent.bottom
            width: parent.width
            height: parent.height/10
+
            Rectangle{
                id: leftbtn
                width: parent.width / 3 - 3
@@ -60,6 +65,7 @@ Window {
                anchors.top: parent.top
                anchors.bottom: parent.bottom
                color: 'gray'
+
                Text{
                    text: "1"
                    font.pixelSize: 16
@@ -70,6 +76,7 @@ Window {
                    anchors.centerIn: parent
                }
            }
+
            Rectangle{
                id:midbtn
                width: parent.width / 3 - 3
@@ -82,6 +89,7 @@ Window {
                anchors.rightMargin: 5
                color: 'gray'
                anchors.centerIn: parent
+
                Text{
                    text: "2"
                    font.pixelSize: 16
@@ -92,6 +100,7 @@ Window {
                    anchors.centerIn: parent
                }
            }
+
            Rectangle{
                id: rightbtn
                width: parent.width / 3 - 3
@@ -100,6 +109,7 @@ Window {
                anchors.top: parent.top
                anchors.bottom: parent.bottom
                color: 'gray'
+
                Text{
                    text: "3"
                    font.pixelSize: 16
