@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/chain/air.png</file>
+        <file>images/chain/chain.png</file>
+        <file>images/chain/down.png</file>
+        <file>images/chain/injured.png</file>
+        <file>images/elements/basic.png</file>
+        <file>images/elements/dark.png</file>
+        <file>images/elements/earth.png</file>
+        <file>images/elements/fire.png</file>
+        <file>images/elements/light.png</file>
+        <file>images/elements/water.png</file>
+        <file>images/other/character.png</file>
+        <file>images/other/character_icon.png</file>
+        <file>images/other/logo.png</file>
+        <file>images/role/ranger.png</file>
+        <file>images/role/support.png</file>
+        <file>images/role/tank.png</file>
+        <file>images/role/warrior.png</file>
+        <file>images/weapons/2hsword.png</file>
+        <file>images/weapons/basket.png</file>
+        <file>images/weapons/bow.png</file>
+        <file>images/weapons/claws.png</file>
+        <file>images/weapons/knuckles.png</file>
+        <file>images/weapons/rifle.png</file>
+        <file>images/weapons/staff.png</file>
+        <file>images/weapons/sword.png</file>
+        <file>images/weapons/weapon_icon.png</file>
+        <file>HeaderClose.qml</file>
+        <file>HeaderOpen.qml</file>
+        <file>images/other/find.png</file>
+        <file>images/other/find1.png</file>
+    </qresource>
+</RCC>
