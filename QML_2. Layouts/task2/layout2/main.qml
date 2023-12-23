@@ -33,6 +33,7 @@ Window {
         }
         RowLayout{
             spacing: myMarginColumn
+            Layout.minimumWidth: parent.width
             Layout.minimumHeight: parent.height/9
             Comp{
                 yourtext: "1"

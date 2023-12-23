@@ -17,14 +17,17 @@ Window {
         Comp{
             Layout.fillHeight: true
             Layout.alignment: Qt.AligtTop
+            Layout.minimumWidth: parent.width/3
         }
         Comp{
             Layout.fillHeight: true
             Layout.alignment: Qt.AligtTop
+            Layout.minimumWidth: parent.width/3
         }
         Comp{
             Layout.fillHeight: true
             Layout.alignment: Qt.AligtTop
+            Layout.minimumWidth: parent.width/3
         }
     }
 }
